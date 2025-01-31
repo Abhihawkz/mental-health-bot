@@ -12,10 +12,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Abhihawkz/mental-health-bot/issues"
   },
   "homepage": "https://github.com/Abhihawkz/mental-health-bot#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.7"
+  }
 }
